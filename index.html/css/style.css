@@ -1,0 +1,40 @@
+*{margin: 0px; padding: 0px; font-style: italic;  background-color: darkslategrey;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+.nav{display: flex; justify-content: space-around; margin-top: 15px;}
+
+.header{display: inline; justify-content: space-between;}
+
+/*image*/
+.imagem{width: 150px;}
+.imagem:hover{border-radius: 0%; border-radius: 35%; transition: all 1s;}
+
+/*text*/
+#text{display: inline-flex; padding-left: 38%;}
+
+/*menu*/
+.menu{display:inline-flex; font-size: x-large;}
+.menu ul{margin-top: 10%;}
+.menu ul li{float: left; padding: 7px; color: #fff;}
+.menu ul li:hover{color: #0dd1d8;}
+
+/*social*/
+.social{margin-top: 30px; font-size: x-large;}
+.social ul{margin-top: 7px;}
+.social ul li{display: inline;}
+.social ul li a {padding: 10px; color: #fff;}
+.btn-linkedin:hover{color: blue;}
+.btn-github:hover{color: #000000}
+.btn-instagram:hover{color: #ee05bc;}
+.btn-twitter:hover{color: #0dd1d8;}
+
+.container{width: 100%;}
+
+.bloco{display: inline-flex;
+    width: 25%;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 3%;
+    background: ghostwhite;}
